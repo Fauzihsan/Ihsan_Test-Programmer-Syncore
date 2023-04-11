@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ihsan -Test 01</title>
+    <style>
+      body {
+        padding: 20px;
+        color: #4a4a4a;
+      }
+      .card {
+        padding: 10px;
+        border-radius: 10px;
+        background: #ffffff;
+        box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+      .number {
+        align-self: flex-start;
+        background: #4a4a4a;
+        color: white;
+        border-radius: 100%;
+        padding: 5px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <span class="number">1</span>
+      <div>
+        <p><b>Pertanyaan : </b> Mengapa setiap bahasa pemrograman itu terdapat framework, apa kegunaan framework ?</p>
+        <p>
+          <b>Jawaban : </b> Setiap bahasa pemrograman pasti memiliki framework/library yang ditujukan untuk dapat menyediakan kerangka dalam mempermudah programmer membangun sebuah sistem. Framework tentu berbeda dengan library, library masih membutuhkan kode murni kita dan kita yang menentukan
+          'alur' penulisan code, sedangkan framework biasanya sudah memiliki aturannya masing masing. Beberapa framework php yang saya ketahui diantaranya Laravel & CodeIgniter
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="number">2</span>
+      <div>
+        <p><b>Pertanyaan : Jelaskan mengenai fungsi dan penggunaan if else, while, while do, switch case, for, foreach?</b></p>
+        <p>
+          <b>Jawaban :</b>
+        </p>
+        <ul>
+          <li>IF ELSE sering saya gunakan untuk melakukan percabangan. Jadi jika suatu kondisi benar, maka program akan mengeksekusi kode tertentu tetapi jika tidak maka program akan mengeksekusi kode yang lainnya</li>
+          <li>WHILE sering saya gunakan untuk melakukan perulangan selama suatu kondisi tersebut masih true/benar. Kondisi akan terus di cek setiap kali perulangan berlangsung, dan perulangan akan berhenti jika kondisi sudah false</li>
+          <li>DO WHILE merupakan perulangan yang mirip dengan while, namun do while akan melakukan perulangan setidaknya satu kali</li>
+          <li>Switch case hampir mirip dengan if else, jadi sering saya gunakan untuk melakukan percabangan, tetapi berdasarkan nilai suatu variabel (ekspresi). Jika nilai variabel atau ekspresi cocok dengan yang didefinisikan, maka program akan mengeksekusi kode tertentu</li>
+          <li>For sering saya gunakan untuk melakukan perulangan dengan jumlah iterasi yang sudah diketahui sebelumnya</li>
+          <li>Foreach sering saya gunakan untuk melakukan perulangan pada setiap elemen dalam suatu array atau objek</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <span class="number">3</span>
+      <div>
+        <p><b>Pertanyaan : </b> Apa itu constructor, method, class, object, variabel, parameter, function, procedure ?</p>
+        <p>
+          <b>Jawaban : </b>
+        </p>
+        <ul>
+          <li>Constructor merupakan sebuah fungsi khusus yang akan dieksekusi oleh program pertama kali atau saat objek dibuat, constructor ini sering digunakan untuk menginisialisasi variabel dan melakukan tugas-tugas awal lainnya</li>
+          <li>Method adalah fungsi yang didefinisikan dalam suatu kelas. Method digunakan untuk melakukan tugas-tugas tertentu pada objek kelas tersebut</li>
+          <li>Class adalah sebuah blueprint atau cetakan untuk membuat objek. Class mendefinisikan atribut dan method yang dimiliki oleh objek</li>
+          <li>Object adalah sebuah instance dari suatu kelas. Objek memiliki atribut dan method yang ditentukan oleh kelasnya</li>
+          <li>Variabel adalah suatu nilai yang disimpan dalam memori dan dapat diubah selama program berjalan</li>
+          <li>Parameter adalah nilai yang diteruskan ke dalam suatu fungsi atau method. Parameter dapat digunakan dalam fungsi atau method untuk melakukan tugas tertentu</li>
+          <li>Function adalah blok kode yang diberi nama dan dapat dipanggil dari bagian lain dalam program. Fungsi dapat mengembalikan nilai atau tidak</li>
+          <li>Procedure adalah blok kode yang diberi nama dan dapat dipanggil dari bagian lain dalam program. Prosedur tidak mengembalikan nilai</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <span class="number">4</span>
+      <div>
+        <p><b>Pertanyaan : </b>Perbedaan method="Post" dan "Get" ?</p>
+        <p>
+          <b>Jawaban : </b> Post dan Get dalam sebuah form sama sama digunakan untuk mengirimkan data dalam http request, tetapi jika Data yang dikirim melalui "GET" itu ditambahkan ke URL sebagai parameter query string, sedangkan data yang dikirim melalui "POST" dikirimkan dalam body permintaan
+          HTTP. kemudian kapasitas data yang dapat dikirimkan melalui "GET" itu terbatas, sedangkan "POST" dapat lebih besar lagi, dan tentunya method post lebih aman karena data yang dikirimkan tidak terlihat oleh user
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <span class="number">5</span>
+      <div>
+        <p><b>Pertanyaan : </b>Jelaskan konsep mengenai web service dan fungsi apa yang digunakan untuk memanggil web service client ?</p>
+        <p>
+          <b>Jawaban : </b>
+          Web service adalah teknologi yang memungkinkan dua atau lebih aplikasi berbeda untuk berkomunikasi melalui jaringan dengan menggunakan protokol HTTP. Web service menggunakan format data XML atau JSON untuk bertukar data antar aplikasi. Untuk memanggil web service client, kita dapat
+          menggunakan fungsi "curl" pada PHP atau menggunakan perpustakaan atau framework khusus yang menyediakan fungsi untuk memanggil web service. Fungsi "curl" dapat digunakan untuk mengirim permintaan HTTP ke server dan menerima respons HTTP.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <span class="number">6</span>
+      <div>
+        <p><b>Pertanyaan : </b>Jelaskan mengenai MVC dan HMVC !</p>
+        <p>
+          <b>Jawaban : </b>
+          MVC (Model-View-Controller) adalah pola desain arsitektur perangkat lunak yang memisahkan aplikasi menjadi tiga bagian utama: model (yang merepresentasikan data dan logika bisnis), view (yang menampilkan data ke pengguna), dan controller (yang mengatur alur aplikasi). Pola MVC memungkinkan
+          aplikasi untuk dibangun secara terstruktur, mempermudah perawatan, dan memungkinkan pengembangan bersama oleh tim. Sedangkan HMVC (Hierarchical Model-View-Controller) adalah pengembangan dari pola MVC yang memungkinkan pengembangan aplikasi menjadi sub-modul yang lebih kecil dan lebih
+          terisolasi. HMVC menggunakan pola MVC dalam setiap sub-modul, yang memungkinkan aplikasi untuk memperoleh fleksibilitas yang lebih besar.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <span class="number">7</span>
+      <div>
+        <p><b>Pertanyaan : </b>Sebutkan fungi curl() dalam php!</p>
+        <p><b>Jawaban : </b>fungsi "curl" adalah fungsi dalam PHP yang digunakan untuk mengirim permintaan HTTP ke server dan menerima respons HTTP. Fungsi "curl" dapat digunakan untuk berkomunikasi dengan web service, mengambil data dari URL, dan melakukan permintaan HTTP lainnya.</p>
+      </div>
+    </div>
+    <div class="card">
+      <span class="number">8</span>
+      <div>
+        <p><b>Pertanyaan : </b>Bagaimana menampilkan sebuah element array dalam PHP ?</p>
+        <p><b>Jawaban : </b> Untuk menampilkan sebuah element array dapat menggunakan perintah "echo $array[0]", dan "print_r($array)" untuk menampilkan seluruh isi array</p>
+      </div>
+    </div>
+    <div class="card">
+      <span class="number">9</span>
+      <div>
+        <p><b>Pertanyaan : </b>Perbedaan HTTP dan HTTPS ?</p>
+        <p><b>Jawaban : </b> Perbedaan antara HTTP dan HTTPS adalah tingkat keamanan. HTTPS menggunakan enkripsi untuk melindungi data yang dikirim, sedangkan HTTP tidak. Selain itu, HTTPS menggunakan port yang berbeda (443) daripada HTTP (80).</p>
+      </div>
+    </div>
+    <div class="card">
+      <span class="number">10</span>
+      <div>
+        <p><b>Pertanyaan : </b>Jelaskan Apa itu API? sebutkan contohnya?</p>
+        <p>
+          <b>Jawaban : </b> API atau Application Programming Interface yaitu sekumpulan aturan, protokol, dan alat yang memungkinkan aplikasi untuk berinteraksi dengan sistem lain. API digunakan untuk mengambil data dari sistem lain atau memungkinkan aplikasi untuk berkomunikasi dengan sistem lain.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
